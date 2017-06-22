@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+}
+.main>div{
+    padding: 510px 0;
+    /*//padding: 510px;*/
+    position:relative;
+}
+#one{
+    background: #0af;
+}
+#two,#three,#four,#five{
+    display: none;
+}
+#two{
+    background: #ffa500;
+}
+#three{
+    background: #9100ff;
+}
+#four{
+    background: #ff008d;
+}
+#five{
+    background: #05d07c;
+}
+.animate{
+    animation:faceIn 2s linear;
+    -webkit-animation:faceIn 2s linear;
+}
+@keyframes faceIn{
+    0%{
+        opacity: .8;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+@-webkit-keyframes faceIn{
+    0%{
+        opacity: .8;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
